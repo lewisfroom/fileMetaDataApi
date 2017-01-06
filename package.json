@@ -4,5 +4,23 @@
   "version": "1.0.0",
   "engines": {
     "node": "4.1.2"
+  },
+  "main": "APIMetadata.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lewisfroom/fileMetaDataApi.git"
+  },
+  "author": "Lewis Froom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lewisfroom/fileMetaDataApi/issues"
+  },
+  "homepage": "https://github.com/lewisfroom/fileMetaDataApi#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "multer": "^1.2.1"
   }
 }
