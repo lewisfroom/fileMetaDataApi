@@ -6,6 +6,6 @@
     "node": "4.1.2"
   },
   "scripts": {
-  "start": "node APIMetadata.js",
+  "start": "node APIMetadata.js"
   }
 }
