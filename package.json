@@ -1,0 +1,11 @@
+{
+  "name": "file-metadata-api",
+  "description": "API for file metadata.",
+  "version": "1.0.0",
+  "engines": {
+    "node": "4.1.2"
+  }
+  "scripts": {
+  "start": "node APIMetadata.js",
+  }
+}
