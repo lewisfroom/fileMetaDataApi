@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<title>Lewis Froom</title>
+<head>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"/>
+<script src="script.js"/>
+<style>
+body {
+  margin: 0;
+}
+
+.slide {
+  position: relative;
+  width: 100%;
+  display: none;
+}
+.active{
+  display: block;
+}
+
+.caption {
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 5px;
+  position: absolute;
+  bottom: 0;
+}
+
+.container {
+  max-width: 768px;
+
+}
+#mainCont{
+  background: grey;
+  color: white;
+}
+#slideCont {
+  padding: 0;
+}
+#contactCont{
+  background: lightgrey;
+}
+</style>
+</head>
+<body>
+<div id="mainCont" class="container">
+  <div class="row text-center">
+    <h4>The name is lewis</h4>
+  </div>
+</div>
+<div id="slideCont" class="container">
+  <div class="slidecontainer">
+    <div class="slide active">
+      <img src="https://placekitten.com/g/1920/1080" class="img-responsive">
+      <div class="caption">
+        A website that I made for so and so.
+      </div>
+    </div>
+    <div class="slide">
+      <img src="https://placekitten.com/g/1920/1080" class="img-responsive">
+      <div class="caption">
+        Cry cry.
+      </div>
+    </div>
+  </div>
+</div>
+<div id="contactCont" class="container">
+contact me
+</div>
+</body>
+</html>
